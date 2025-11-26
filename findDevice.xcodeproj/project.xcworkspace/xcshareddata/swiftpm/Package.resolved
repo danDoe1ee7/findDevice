@@ -1,0 +1,42 @@
+{
+  "originHash" : "2efe631122b0e02b6731a5f4666fe6db7c8889b3d0b389016212c1c432e924ab",
+  "pins" : [
+    {
+      "identity" : "lan-scanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MaatheusGois/lan-scanner",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "b5d4cda7161efec0fa042670eaa9bb7aeeba5bee"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "revision" : "a004050748dc197c56256a14dca49a035d74726c",
+        "version" : "4.5.2"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "cccb3ca9e26ec452a29f2f0d4050d1e38b8a3d43",
+        "version" : "14.14.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c22f9303d446fc3c044e4c151ed19597464b6bd7"
+      }
+    }
+  ],
+  "version" : 3
+}
