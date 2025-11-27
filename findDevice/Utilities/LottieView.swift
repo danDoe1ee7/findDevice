@@ -58,10 +58,10 @@ struct LottieView: UIViewRepresentable {
             animationView.play()
         }
     }
-    
-    class Coordinator {
-        var animationView: LottieAnimationView?
-    }
+}
+
+class Coordinator {
+	var animationView: LottieAnimationView?
 }
 
 extension LottieView {

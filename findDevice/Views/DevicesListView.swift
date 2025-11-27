@@ -9,7 +9,6 @@ import SwiftUI
 
 struct DevicesListView: View {
     @ObservedObject var viewModel: ScanViewModel
-    // @State больше не нужен
     
     var body: some View {
         List {

@@ -9,6 +9,7 @@ import Foundation
 import RealmSwift
 
 class Device: Object, Identifiable {
+	// Требования Realm работать со строками
     @Persisted(primaryKey: true) var id: String = UUID().uuidString
     @Persisted var name: String = ""
 	@Persisted var type: String = DeviceType.bluetooth.rawValue
@@ -20,6 +21,7 @@ class Device: Object, Identifiable {
     @Persisted var scanSessionId: String = ""
     @Persisted var createdAt: Date = Date()
     
+	// Для использования в программе
     var deviceType: DeviceType {
         get { DeviceType(rawValue: type) ?? .bluetooth }
         set { type = newValue.rawValue }
